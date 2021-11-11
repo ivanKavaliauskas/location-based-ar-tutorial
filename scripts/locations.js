@@ -11,12 +11,12 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Poke-VillaMaria',
-            location: {
-                // decomment the following and add coordinates:
-                lat: '-32.4323895',
-                lng: '-63.2379763',
-            },
+            // name: 'Poke-VillaMaria',
+            // location: {
+            //     // decomment the following and add coordinates:
+            //     lat: '-32.4323895',
+            //     lng: '-63.2379763',
+            // },
             name: 'Poke-Gaukler',
             location: {
                 // decomment the following and add coordinates:
