@@ -1,6 +1,8 @@
 
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
+
+    if(buy)
     button.innerText = '﹖';
 
     let places = staticLoadPlaces();
@@ -10,11 +12,17 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Poke-1',
+            name: 'Poke-VillaMaria',
             location: {
                 // decomment the following and add coordinates:
                 lat: '-32.4323895',
                 lng: '-63.2379763',
+            },
+            name: 'Poke-Gaukler',
+            location: {
+                // decomment the following and add coordinates:
+                lat: '-38.0002122',
+                lng: '-57.5525366',
             },
             // name: 'Poke-2',
             // location: {
