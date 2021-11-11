@@ -2,7 +2,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
 
-    if(buy)
     button.innerText = '﹖';
 
     let places = staticLoadPlaces();
